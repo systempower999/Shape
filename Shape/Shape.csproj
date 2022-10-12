@@ -60,8 +60,8 @@
   <ItemGroup>
     <Compile Include="enum\Color.cs" />
     <Compile Include="Декорат\Декорат овала\Oval.cs" />
+    <Compile Include="Декорат\Декорат овала\OvalWithKREST.cs" />
     <Compile Include="Декорат\Декорат овала\OvalWithKolokol.cs" />
-    <Compile Include="Декорат\Декорат овала\OvalWithRadius.cs" />
     <Compile Include="Интерфейсы\IDrawn.cs" />
     <Compile Include="Классы\Painter.cs" />
     <Compile Include="Классы\TestShape.cs" />

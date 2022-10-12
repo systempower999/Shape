@@ -14,7 +14,7 @@ namespace Shape.Декорат.Декорат_круга
         {
             Oval = oval;
         }
-        
+
         public string Drawn()
         {
             return Oval.Drawn() + "с колокольчиком ";

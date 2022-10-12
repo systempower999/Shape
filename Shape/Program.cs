@@ -36,7 +36,7 @@ namespace Shape
 
             IDrawn oval = new Oval("Фигура овал");//декорат
             oval = new OvalWithKolokol(oval);
-            oval = new OvalWithRadius(oval);
+            oval = new OvalWithKolokol(oval);
 
             Console.WriteLine(oval.Drawn());
         }
