@@ -58,7 +58,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="enum\Color.cs" />
     <Compile Include="Декорат\Декорат овала\Oval.cs" />
     <Compile Include="Декорат\Декорат овала\OvalWithKREST.cs" />
