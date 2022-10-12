@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Shape.Декорат.Декорат_круга
 {
-    public class OvalWithKREST : IDrawn//декорат
+    public class OvalWithKolokol : IDrawn//декорат
     {
         public IDrawn Oval { get; set; }
 
-        public OvalWithKREST(IDrawn oval)
+        public OvalWithKolokol(IDrawn oval)
         {
             Oval = oval;
         }
         
         public string Drawn()
         {
-            return Oval.Drawn() + "с крестом ";
+            return Oval.Drawn() + "с колокольчиком ";
         }
     }
 }
