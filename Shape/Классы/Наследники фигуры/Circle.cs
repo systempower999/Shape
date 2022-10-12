@@ -12,9 +12,9 @@ namespace Shape
         public double R;
         private const double Pi = 3.14;
 
-        public void Drawn()//интерфейс
+        public string Drawn()//интерфейс
         {
-            Console.WriteLine("Нарисован круг");
+            return "Нарисован круг";
         }
 
         public Circle(double r)

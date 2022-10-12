@@ -15,9 +15,9 @@ namespace Shape.Декорат.Декорат_круга
             Oval = oval;
         }
 
-        public void Drawn()
+        public string Drawn()
         {
-            Console.WriteLine("с радиусом");
+            return Oval.Drawn() + "с радиусом ";
         }
     }
 }

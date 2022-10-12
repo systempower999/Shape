@@ -8,6 +8,6 @@ namespace Shape
 {
     public interface IDrawn
     {
-        void Drawn();
+        string Drawn();
     }
 }

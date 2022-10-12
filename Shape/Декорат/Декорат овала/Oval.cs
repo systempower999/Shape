@@ -16,9 +16,9 @@ namespace Shape.Декорат.Декорат_овала
             Name = name;
         }
 
-        public void Drawn()
+        public string Drawn()
         {
-            Console.WriteLine("Овал нарисован ");
+            return "Овал нарисован ";
         }
     }
 }

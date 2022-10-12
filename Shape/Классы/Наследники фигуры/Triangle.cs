@@ -11,9 +11,9 @@ namespace Shape
     {
         private double A, B, C;
 
-        public void Drawn()//интерфейс
+        public string Drawn()//интерфейс
         {
-            Console.WriteLine("Нарисован треугольник");
+            return "Нарисован треугольник";
         }
 
         public Triangle(int a, int b, int c)

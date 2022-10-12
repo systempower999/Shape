@@ -35,11 +35,10 @@ namespace Shape
             Console.WriteLine();
 
             IDrawn oval = new Oval("Фигура овал");//декорат
-            oval.Drawn();
             oval = new OvalWithKREST(oval);
-            oval.Drawn();
             oval = new OvalWithRadius(oval);
-            oval.Drawn();
+
+            Console.WriteLine(oval.Drawn());
         }
     }
 }

@@ -10,9 +10,9 @@ namespace Shape
     {
         private double Dlina, Shirina;
 
-        public void Drawn()//интерфейс
+        public string Drawn()//интерфейс
         {
-            Console.WriteLine("Нарисован прямоугольник");
+            return "Нарисован прямоугольник";
         }
 
         public Rectangle(double a, double b)
